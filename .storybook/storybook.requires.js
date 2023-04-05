@@ -16,6 +16,13 @@ global.STORIES = [
     importPathMatcher:
       "^\\.[\\\\/](?:components(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(?:ts|tsx|js|jsx)?)$",
   },
+  {
+    titlePrefix: "",
+    directory: "./components",
+    files: "**/**/*.stories.?(ts|tsx|js|jsx)",
+    importPathMatcher:
+      "^\\.[\\\\/](?:components(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(?:ts|tsx|js|jsx)?)$",
+  },
 ];
 
 import "@storybook/addon-ondevice-controls/register";
@@ -47,6 +54,12 @@ try {
 
 const getStories = () => {
   return {
+    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories.tsx"),
+    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories.tsx"),
+    "./components/Task/Task.stories.jsx": require("../components/Task/Task.stories.jsx"),
+    "./components/TaskList/TaskList.stories.jsx": require("../components/TaskList/TaskList.stories.jsx"),
+    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories.tsx"),
+    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories.tsx"),
     "./components/Task/Task.stories.jsx": require("../components/Task/Task.stories.jsx"),
     "./components/TaskList/TaskList.stories.jsx": require("../components/TaskList/TaskList.stories.jsx"),
   };
