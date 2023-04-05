@@ -1,18 +1,6 @@
 import Colors from '../Colors';
 import type { ThemeType } from '../Theme';
 
-import * as Font from 'expo-font';
-
-async function loadFonts() {
-  await Font.loadAsync({
-    'ProximaNova-Semibold': require('../../Assets/fonts/ProximaNova-Semibold.otf'),
-    'ProximaNova-Medium': require('../../Assets/fonts/ProximaNova-Medium.otf'),
-    'ProximaNova-Regular': require('../../Assets/fonts/ProximaNova-Regular.otf'),
-    'ProximaNova-Bold': require('../../Assets/fonts/ProximaNova-Bold.otf'),
-  });
-}
-
-
 export const DEFAULT_TEXT_PADDING = 16;
 
 export const defaultTheme: ThemeType = {
