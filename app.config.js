@@ -1,7 +1,7 @@
 export default ({ config }) => ({
   ...config,
-  name: "Storybook Tutorial Template",
-  slug: "storybook-tutorial-template",
+  name: "Limbix Mobile Component Library",
+  slug: "react-native-limbix-ui-storybook",
   extra: {
     storybookEnabled: process.env.STORYBOOK_ENABLED,
   },
