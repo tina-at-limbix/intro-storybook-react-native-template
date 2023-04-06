@@ -56,6 +56,7 @@ export default {
     </SafeAreaView>
     ),
   ],
+  argTypes: {}
 };
 
 export const Default = {

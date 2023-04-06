@@ -14,7 +14,7 @@ function App() {
 
 let AppEntryPoint = App;
 
-let StorybookApp = require("./.storybook").default;
+let StorybookApp = require("./.ondevice").default;
 
 function StorybookAppWithConfig() {
   useEffect(() => {
