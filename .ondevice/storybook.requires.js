@@ -54,12 +54,12 @@ try {
 
 const getStories = () => {
   return {
-    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories"),
-    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories"),
+    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories.tsx"),
+    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories.tsx"),
     "./components/Task/Task.stories.jsx": require("../components/Task/Task.stories.jsx"),
     "./components/TaskList/TaskList.stories.jsx": require("../components/TaskList/TaskList.stories.jsx"),
-    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories"),
-    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories"),
+    "./components/MapGrid/MapGrid.stories.tsx": require("../components/MapGrid/MapGrid.stories.tsx"),
+    "./components/Primitives/Button/Button.stories.tsx": require("../components/Primitives/Button/Button.stories.tsx"),
     "./components/Task/Task.stories.jsx": require("../components/Task/Task.stories.jsx"),
     "./components/TaskList/TaskList.stories.jsx": require("../components/TaskList/TaskList.stories.jsx"),
   };

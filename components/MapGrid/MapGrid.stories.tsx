@@ -38,7 +38,7 @@ const sprites =   [{
 }];
 
 export default {
-  title: "Map Grid",
+  title: "MapGrid",
   component: MapGrid,
   decorators: [
     (Story) => (

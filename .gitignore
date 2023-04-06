@@ -82,5 +82,4 @@ buck-out/
 
 # Expo
 .expo/*
-web-build/
-
+storybook-static/
