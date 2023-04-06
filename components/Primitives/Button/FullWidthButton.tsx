@@ -3,10 +3,9 @@ import {
   TouchableOpacity, ActivityIndicator,
 } from 'react-native';
 
-import { LimbixUIContext } from '../../../context';
+import { LimbixUIContext, useTheme } from 'react-native-limbix-ui';
 import styles from '../../Styles/FullWidthButtonStyles';
 import type { ButtonProps } from './types';
-import { useTheme } from '../../../Hooks';
 import { Text } from '../Text';
 
 const DEBOUNCE_TIME = 500;

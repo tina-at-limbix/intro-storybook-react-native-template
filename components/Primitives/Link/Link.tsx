@@ -4,8 +4,7 @@ import {
 } from 'react-native';
 
 import { linkToUrl } from '../../../Common/LinkingUtils';
-import { LimbixUIContext } from '../../../context';
-import { useTheme } from '../../../Hooks';
+import { LimbixUIContext, useTheme } from 'react-native-limbix-ui';
 import type { TextProps } from '../Text';
 
 type Props = {
